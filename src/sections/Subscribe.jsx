@@ -1,4 +1,4 @@
-import { arrowRight } from "../assets/icons";
+import  arrowRight  from "../assets/icons/arrow-right.svg";
 import Button from "../ui/Button";
 
 const Subscribe = () => {
