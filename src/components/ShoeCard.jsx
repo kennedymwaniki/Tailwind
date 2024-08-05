@@ -1,7 +1,7 @@
 const ShoeCard = ({ imgUrl, changeBigShoeImage, bigShoeImg }) => {
   const handlelick = () => {
     if (bigShoeImg !== imgUrl.bigShoe) {
-      changeBigShoeImage(imgUrl);
+      changeBigShoeImage(imgUrl.bigShoe);
     }
   };
   return (
